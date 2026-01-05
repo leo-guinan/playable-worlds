@@ -11,12 +11,12 @@ Think about the hardest things you've ever done voluntarily. Running a marathon.
 These are not easy. They demand discipline, time, and sacrifice. And yet—millions of people willingly submit themselves to these challenges, often joyfully. They persist through failure. They improve. They return.
 
 Now compare that to the kinds of problems people avoid, procrastinate, or burn out on:
-• "Figure out what we should do."
-• "Fix the organization."
-• "Align the team."
-• "Make progress."
-• "Solve the trust issue."
-• "Decide the strategy."
+* "Figure out what we should do."
+* "Fix the organization."
+* "Align the team."
+* "Make progress."
+* "Solve the trust issue."
+* "Decide the strategy."
 
 These problems feel heavy. Opaque. Emotionally draining. Even when the stakes are lower, the resistance is higher.
 
