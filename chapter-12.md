@@ -1,200 +1,243 @@
-# Chapter 12: Diffie and the Opening of Trust
+# Chapter 10: Schelling and the Discovery of Coordination
 
-Shannon proved something unsettling.
+Before there are rules, there is recognition.
 
-Perfect secrecy is possible.
-And impossible at scale.
+Before incentives, there are expectations.
+Before enforcement, there is salience.
 
-If coordination required shared secrets, then large societies would never be secure.
+Thomas Schelling understood this before almost anyone else.
 
-This was not a technical inconvenience.
-It was a civilizational limit.
+## The Question No One Was Asking
 
-Whitfield Diffie refused to accept it.
+By the time Schelling entered the scene, game theory had already done something remarkable.
 
-## A World That Had Outgrown Secrets
+von Neumann showed how adversaries converge under pressure.
 
-By the 1970s, the world had changed.
+Nash showed how systems stabilize without coordination.
 
-- Computers were proliferating
-- Networks were forming
-- Strangers were communicating digitally
-- Institutions no longer mediated every interaction
+But both assumed something quietly profound:
 
-But cryptography still assumed:
+The game already exists.
 
-- prearranged keys
-- trusted couriers
-- closed groups
-- centralized control
+Players know:
 
-The math was elegant.
-The game was unplayable.
+- what the game is
+- what moves are allowed
+- what outcomes matter
 
-Diffie saw the mismatch.
+Schelling asked a different question:
 
-## The Forbidden Question
+**How do people coordinate when the game is not yet defined?**
 
-Diffie asked a question that violated centuries of cryptographic instinct:
+## Life Before the Game
 
-**What if secrecy at setup is unnecessary?**
+Most real coordination problems don't start with rules.
+
+They start with ambiguity.
+
+Where should we meet if we're separated?
+
+Which side of the road should we drive on?
+
+Which standard should we adopt?
+
+Which protocol should become dominant?
+
+Which chain should be "the" chain?
+
+No authority decides first.
+No enforcement exists.
+And yet… coordination happens.
+
+This is not Nash.
+This is something earlier.
+
+## Focal Points
+
+Schelling's most famous concept is the focal point.
+
+A focal point is an outcome that people converge on—not because it is optimal, but because it is obvious.
+
+It is obvious because:
+
+- it is symmetric
+- it is culturally salient
+- it is historically prominent
+- it "feels" natural
+
+People choose it because they expect others to choose it.
+
+This is coordination without communication.
+
+## Why Focal Points Work
+
+Focal points work because humans do something subtle:
+
+They model each other's expectations recursively.
 
 Not:
 
-"How do we hide better?"
+"What do I want?"
 But:
 
-"What if nothing needs to be hidden at all?"
+"What do I think you think I will think you will do?"
 
-This was heresy.
+Schelling made this recursive modeling explicit.
 
-## From Secrets to Structure
+He showed that:
 
-Working with Martin Hellman, Diffie reframed cryptography completely.
+- mutual belief can substitute for enforcement
+- expectation can substitute for incentive
+- salience can substitute for optimization
 
-Instead of asking how to conceal information, they asked how to exploit asymmetry.
+This is coordination as a cognitive phenomenon.
 
-The key insight was simple and profound:
+## Games That Start Themselves
 
-**Some operations are easy to do and hard to undo.**
+Schelling's insight explains why some games appear to start themselves.
 
-If this asymmetry could be shared publicly, then secrecy could emerge without secrecy.
+A standard emerges.
 
-## The Public-Key Breakthrough
+A convention locks in.
 
-Diffie–Hellman key exchange introduced a new kind of game.
+A default becomes dominant.
 
-- Everyone sees the same public information
-- Each player contributes a private choice
-- A shared secret emerges
-- Observers learn nothing useful
+No one voted.
+No one enforced.
+No one designed it.
 
-No prior trust.
-No shared secrets.
-No authority.
+The game formed because:
 
-Just structure.
+- enough players recognized the same focal point
+- and moved toward it simultaneously
 
-## Why This Was a Civilizational Shift
+This is the birth of a game.
 
-Diffie didn't just improve cryptography.
+## The Danger of Early Salience
 
-He changed who could play.
+Schelling was not naive.
 
-Before:
+He understood that focal points are not always good.
 
-- cryptography belonged to states
-- strong security was restricted
-- trust required permission
+They are:
 
-After:
+- arbitrary
+- path-dependent
+- sticky
+- often suboptimal
 
-- anyone could generate keys
-- anyone could verify signatures
-- anyone could coordinate securely with strangers
+Once a focal point forms:
 
-Trust became permissionless.
+- switching becomes costly
+- coordination is trapped
+- better alternatives struggle to gain traction
 
-## Verification Replaces Belief
+This is how bad games begin.
 
-Public-key cryptography replaced a fragile idea:
+## Schelling vs Nash (The Critical Difference)
 
-"Trust the person."
+Nash equilibrium explains:
 
-With a stronger one:
+- why systems don't move
 
-"Verify the move."
+Schelling explains:
 
-You no longer needed:
+- why they moved there in the first place
 
-- identity
-- reputation
-- goodwill
+Nash shows you the trap.
+Schelling shows you the entrance.
 
-Only proof that the rules were followed.
+Together, they explain how entire societies can converge on outcomes no one explicitly chose.
 
-This is Noether's conservation, enforced mechanically.
+## Schelling and the Metagame
 
-## Attackers Assumed, Not Feared
+Schelling reveals a new layer of the metagame:
 
-Diffie embraced Shannon's adversarial world.
+**Game selection happens before game play.**
 
-- Attackers are everywhere
-- Observers are assumed
-- Rules are public
-- Security survives disclosure
+This is where:
 
-This was not optimism.
-It was realism with discipline.
+- narratives matter
+- symbols matter
+- timing matters
+- early coordination wins
 
-## Diffie's Place in the Lineage
+If you want to design good games:
 
-Placed cleanly:
+- you must manage salience early
+- or you will inherit it blindly
 
-Schelling showed how coordination begins
+## From Cold War to Everyday Life
 
-Shannon showed why it leaks
+Schelling developed these ideas studying nuclear standoffs.
 
-Diffie showed how it survives in public
+But they apply everywhere.
 
-He transformed cryptography from:
+Arms races coordinate escalation.
 
-- secrecy management
+Traffic conventions coordinate flow.
 
-into:
+Financial panics coordinate fear.
 
-- public game design
+Social norms coordinate behavior.
 
-## The Cost of Openness
+Cryptocurrencies coordinate belief.
 
-Opening the game created a new pressure.
+These are not enforced systems.
 
-When everyone can play:
+They are recognized systems.
 
-- attackers adapt
-- assumptions age
-- mathematics must harden
+## Schelling's Place in the Lineage
 
-Security could no longer rely on obscurity.
-It had to rely on feasibility gaps.
+Placed in the lineage:
 
-This raised a new question.
+von Neumann formalized adversaries
 
-## The Question Diffie Leaves Us With
+Nash revealed equilibrium traps
 
-Diffie leaves us with a challenge that defines the modern world:
+Schelling explained coordination without rules
 
-**If trust can be public, how do we prevent coordination from fragmenting?**
+He is the mathematician of beginnings.
 
-Or more sharply:
+## Why Schelling Matters More Now
 
-**How do we agree on shared state when anyone can participate?**
+In a world of:
 
-Secure communication was solved.
-Agreement was not.
+- open networks
+- permissionless systems
+- decentralized platforms
+- rapid memetic spread
 
-## The Door Diffie Opens
+Schelling dynamics dominate.
 
-Public-key cryptography made it possible for:
+The first focal point often wins—regardless of merit.
 
-- strangers to communicate
-- contracts to be signed
-- identities to be verified
-- trust to scale horizontally
+Understanding this is no longer academic.
 
-But it did not solve:
+It is existential.
 
-- double spending
-- shared history
-- global ordering
-- persistent agreement
+## The Question Schelling Leaves Us With
 
-Those problems would require something new.
+Schelling leaves us with a dangerous insight:
 
-Not secrecy.
-Not trust.
-Not authority.
+**If coordination begins with salience, who controls what becomes salient?**
 
-But competition—at scale.
+And more pointedly:
 
-In the next chapter, coordination becomes autonomous, time becomes scarce, and the first global game that runs itself comes into existence.
+**What games are we already playing simply because they became obvious first?**
+
+## The Bridge Forward
+
+Schelling explains how games begin.
+
+But once games begin, they attract adversaries.
+
+Expectations invite exploitation.
+Salience invites attack.
+Coordination invites deception.
+
+To survive, games must withstand observers who want to break them.
+
+That requires a new discipline—one that treats information itself as a battleground.
+
+In the next chapter, secrecy becomes measurable, attackers become explicit, and information enters the game as a conserved quantity.

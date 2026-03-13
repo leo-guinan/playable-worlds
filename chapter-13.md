@@ -1,212 +1,211 @@
-# Chapter 13: Satoshi and the Game That Keeps Time
+# Chapter 11: Shannon and the Discipline of Information Under Attack
 
-Diffie solved trust between strangers.
+Schelling showed how games begin.
+Shannon showed how they survive.
 
-Satoshi solved something harder:
+## When Recognition Isn't Enough
 
-**Agreement among strangers, over time, with no referee.**
+Focal points can create coordination—but they are fragile.
 
-This was the last missing piece.
+Once a pattern becomes visible:
 
-## The Problem Trust Couldn't Solve
+- adversaries learn it
+- noise corrupts it
+- deception exploits it
+- observers interfere
 
-After Diffie, the internet could do remarkable things.
+Schelling dynamics explain how systems form.
+They do not explain how systems persist.
 
-- Strangers could communicate securely
-- Messages could be signed
-- Identity could be proven
-- Contracts could be authenticated
+Claude Shannon entered at exactly this fault line.
 
-But one problem remained unsolved:
+## A World Full of Listeners
 
-**Who decides what happened?**
+Shannon worked in a world where:
 
-In every digital system before Bitcoin:
+- every signal could be intercepted
+- every message could be corrupted
+- every pattern could be exploited
 
-- someone ran the server
-- someone kept the ledger
-- someone resolved conflicts
+This was not philosophy.
+It was engineering under war.
 
-Trust always re-entered through the back door.
+Communication systems were failing not because they were poorly built—but because they were observed.
 
-## Why Agreement Is Harder Than Communication
+Shannon realized something devastating:
 
-Communication is local.
-Agreement is global.
+**Any system that assumes privacy without modeling observers is broken.**
 
-To agree, a system must:
+## The Radical Move: Quantifying Information
 
-- order events
-- prevent duplication
-- resolve conflicts
-- persist history
-- survive adversaries
+Before Shannon, "information" was a metaphor.
 
-This is not an information problem.
+After Shannon, it was a measurable quantity.
 
-It is a coordination problem under attack.
+Bits.
+Entropy.
+Channel capacity.
+Noise.
 
-## A Designer Who Refused Authority
+Shannon did not ask:
 
-Satoshi Nakamoto appeared without credentials, identity, or institution.
+"Is this message meaningful?"
 
-This was not mystique.
+He asked:
 
-It was design.
+"How much uncertainty does this message remove?"
 
-If the system depended on a person, it would fail.
-If it depended on trust, it would fragment.
+Meaning was irrelevant.
+Structure was everything.
 
-Satoshi removed themselves so the game could stand alone.
+## Information as a Conserved Quantity
 
-## Time as the Scarce Resource
+Shannon's deepest insight was Noetherian in spirit:
 
-Satoshi's core insight was not cryptographic.
+**Information cannot be destroyed—only redistributed.**
 
-It was temporal.
+If an attacker learns nothing from an encrypted message, that ignorance must come from somewhere else—usually the key.
 
-They realized that time, when coupled to computation, could be made scarce and verifiable.
+Security became a conservation problem.
 
-Proof-of-work did three things at once:
+This changed everything.
 
-- it turned energy into time
-- time into ordering
-- ordering into agreement
+## Perfect Secrecy (and Its Price)
 
-This created a shared clock without a clock-keeper.
+Shannon defined perfect secrecy with ruthless clarity:
 
-## Consensus as Competition
+**An encrypted message is perfectly secret if observing it provides zero information about the original message.**
 
-Instead of asking participants to cooperate, Bitcoin asked them to compete.
+This was not aspirational.
+It was precise.
 
-- Anyone could attempt to add the next block
-- Only one would succeed
-- Everyone else would verify
-- History would extend along the most expensive path
+And it came with a brutal constraint:
 
-Agreement emerged not from trust, but from cost.
+**Perfect secrecy requires a key as long as the message, used once.**
 
-Cheating was not punished morally.
-It was priced out mechanically.
+The one-time pad was flawless—and unusable at scale.
 
-## Bitcoin as a Game
+This wasn't a failure of technique.
+It was a law.
 
-Bitcoin is not software.
+## Why This Matters for Games
 
-It is a game.
+Seen through our lens, Shannon did something subtle:
 
-- Arena: a global peer-to-peer network
-- Moves: hashing attempts
-- Score: block rewards
-- Invariants: total supply, valid history
-- Adversaries: assumed, not excluded
+He showed that coordination leaks information by default.
 
-The brilliance is not that people behave well.
+Any repeated pattern:
 
-It is that the game works even if they don't.
+- teaches observers
+- reduces uncertainty
+- invites exploitation
 
-## Why This Worked When Others Failed
+If a game cannot hide or randomize its play:
 
-Earlier systems relied on:
+- it will be predicted
+- it will be gamed
+- it will collapse
 
-- committees
-- leaders
-- reputation
-- legal enforcement
+Randomness is not noise.
+It is defense.
 
-Bitcoin relied on none of these.
+## Attackers as First-Class Players
 
-It relied on:
+Like von Neumann, Shannon refused to assume goodwill.
 
-- publicly verifiable work
-- asymmetric cost
-- irreversible history
+But where von Neumann modeled opponents' choices, Shannon modeled their observations.
 
-This is Gauss's inevitability applied to coordination.
+Attackers didn't need to act.
+They just needed to watch.
 
-The system does not argue.
-It converges.
+This expanded the game.
 
-## The Necessity of Disappearance
+Now there were:
 
-Satoshi vanished shortly after launch.
+- players
+- observers
+- eavesdroppers
+- analysts
 
-This was not an accident.
+All rational.
+All adaptive.
 
-If Satoshi stayed:
+## From Secrecy to Robustness
 
-- they would become an authority
-- social trust would replace structural trust
-- the game would bend around a person
+Shannon's work made one thing unavoidable:
 
-By leaving, Satoshi completed the design.
+**Security cannot depend on hiding the rules.**
 
-A true coordination game must survive the absence of its creator.
+If a system only works when its mechanics are secret, it is already broken.
 
-Bitcoin did.
+True security must survive:
 
-## Satoshi's Place in the Lineage
+- full disclosure of rules
+- infinite observation
+- worst-case inference
 
-Placed correctly:
+This principle would echo for decades.
 
-Shannon measured secrecy
+## Shannon's Place in the Lineage
 
-Diffie made trust public
+Placed precisely:
 
-Satoshi made agreement autonomous
+von Neumann modeled adversaries
 
-He transformed coordination from:
+Nash modeled equilibrium
 
-- something humans manage
+Schelling modeled coordination
 
-into:
+Shannon modeled information leakage
 
-- something systems enforce
+He is the thinker who shows that:
 
-## The Cost of Autonomy
+- coordination attracts observers
+- observers become attackers
+- and survival requires randomness and bounds
 
-A game that runs itself is hard to change.
+## Why Shannon Was a Turning Point
 
-Rules that guarantee fairness also resist evolution.
+After Shannon:
 
-- Upgrades are slow
-- Forks are painful
-- Governance is implicit
-- Errors are permanent
+- security could be measured
+- failure could be predicted
+- impossibility could be proven
+- tradeoffs became explicit
 
-This is the price of mechanical trust.
+Cryptography stopped being mystical.
+It became mechanical.
 
-## The Question Satoshi Leaves Us With
+This allowed trust to move from:
 
-Satoshi leaves a question that has not yet been answered:
+- belief
+- authority
+- secrecy
 
-**How do you evolve a global coordination game without breaking the trust that makes it work?**
+to structure.
 
-Or more starkly:
+## The Question Shannon Leaves Us With
 
-**What happens when the rules are correct—but frozen?**
+Shannon leaves us with a precise challenge:
 
-## The Door Satoshi Opens
+**If perfect secrecy is impossible at scale, what imperfections can we tolerate?**
 
-Bitcoin proved something that cannot be un-proven:
+And more dangerously:
 
-**Global coordination without centralized trust is possible.**
+**How do strangers coordinate securely when every move can be observed?**
 
-Everything that followed—
-smart contracts, DAOs, layer-twos, alternative consensus mechanisms—
-is an attempt to answer the same question from different angles.
+That question would not be answered by hiding.
+It would be answered by asymmetry.
 
-## The Transition Forward
+## The Door Shannon Opens
 
-We have now crossed a threshold.
+Shannon proved the limits of secrecy.
 
-Games are no longer designed and played by humans alone.
-They are enforced by machines.
-They persist beyond their creators.
-They coordinate millions.
+But limits create pressure.
+Pressure creates invention.
 
-The final challenge is no longer technical.
+The next breakthrough would abandon the idea of shared secrets entirely—and replace them with public structure that still resisted attack.
 
-It is metagame design.
+That breakthrough would come from someone who believed that trust could be made public.
 
-In the next chapter, we step back from individuals and look at systems themselves—how games compete, evolve, fail, and are replaced, and why choosing which game to play becomes the most important decision of all.
+In the next chapter, cryptography stops hiding—and becomes a game anyone can play.
