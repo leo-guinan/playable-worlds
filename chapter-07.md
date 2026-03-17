@@ -1,4 +1,4 @@
-# Chapter 6: Riemann and the Shape of Entire Worlds
+# Chapter 7: Riemann and the Shape of Entire Worlds
 
 Up to this point, the lineage has been about rules.
 

@@ -1,4 +1,4 @@
-# Chapter 11: Shannon and the Discipline of Information Under Attack
+# Chapter 13: Shannon and the Discipline of Information Under Attack
 
 Schelling showed how games begin.
 Shannon showed how they survive.

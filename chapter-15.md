@@ -1,4 +1,4 @@
-# Chapter 12: Diffie and the Opening of Trust
+# Chapter 15: Diffie and the Opening of Trust
 
 Shannon proved something unsettling.
 

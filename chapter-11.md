@@ -1,4 +1,4 @@
-# Chapter 9: Nash and the Trap of Stable Games
+# Chapter 11: Nash and the Trap of Stable Games
 
 John von Neumann taught mathematics how to think about enemies.
 

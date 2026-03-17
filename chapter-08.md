@@ -1,4 +1,4 @@
-# Chapter 7: Noether and the Laws That Cannot Be Broken
+# Chapter 8: Noether and the Laws That Cannot Be Broken
 
 Up to this point, the story has been about discovery.
 

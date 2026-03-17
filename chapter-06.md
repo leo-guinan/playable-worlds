@@ -1,4 +1,4 @@
-# Chapter 5: Galois and the Games That Cannot Be Won
+# Chapter 6: Galois and the Games That Cannot Be Won
 
 If Gauss taught us how to detect inevitability,
 Évariste Galois taught us how to recognize failure as a structural fact.

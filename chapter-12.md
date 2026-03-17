@@ -1,4 +1,4 @@
-# Chapter 10: Schelling and the Discovery of Coordination
+# Chapter 12: Schelling and the Discovery of Coordination
 
 Before there are rules, there is recognition.
 

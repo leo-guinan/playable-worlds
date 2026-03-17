@@ -1,4 +1,4 @@
-# Chapter 8: von Neumann and the Mathematics of Adversaries
+# Chapter 10: von Neumann and the Mathematics of Adversaries
 
 Up to this point in the story, mathematics has been doing something subtle.
 

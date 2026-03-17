@@ -1,4 +1,4 @@
-# Chapter 13: Satoshi and the Game That Keeps Time
+# Chapter 16: Satoshi and the Game That Keeps Time
 
 Diffie solved trust between strangers.
 

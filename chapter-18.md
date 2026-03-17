@@ -1,4 +1,4 @@
-# Chapter 15: Choosing the Games Worth Playing
+# Chapter 18: Choosing the Games Worth Playing
 
 We began with a simple observation:
 

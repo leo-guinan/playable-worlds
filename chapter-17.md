@@ -1,4 +1,4 @@
-# Chapter 14: The Metagame: How Games Compete, Evolve, and Die
+# Chapter 17: The Metagame: How Games Compete, Evolve, and Die
 
 Up to this point, the story has been about minds.
 
